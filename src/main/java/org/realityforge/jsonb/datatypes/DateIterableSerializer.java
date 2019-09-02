@@ -5,6 +5,6 @@ public final class DateIterableSerializer
 {
   public DateIterableSerializer()
   {
-    super( "YYYY-MM-dd" );
+    super( Constants.DATE_FORMAT );
   }
 }

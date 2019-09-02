@@ -5,6 +5,6 @@ public final class DateTimeIterableSerializer
 {
   public DateTimeIterableSerializer()
   {
-    super( "YYYY-MM-dd'T'HH:mm:ss" );
+    super( Constants.DATE_TIME_FORMAT );
   }
 }
