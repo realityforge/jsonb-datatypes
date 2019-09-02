@@ -23,7 +23,14 @@ abstract class AbstractTemporalIterableSerializer
     generator.writeStartArray();
     for ( final Date value : values )
     {
-      formatDate( generator, value );
+      if ( null == value )
+      {
+        generator.writeNull();
+      }
+      else
+      {
+        formatDate( generator, value );
+      }
     }
     generator.writeEnd();
   }
