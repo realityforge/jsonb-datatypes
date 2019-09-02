@@ -6,6 +6,6 @@ final class Constants
   {
   }
 
-  static final String DATE_FORMAT = "YYYY-MM-dd";
-  static final String DATE_TIME_FORMAT = "YYYY-MM-dd'T'HH:mm:ss";
+  static final String DATE_FORMAT = "yyyy-MM-dd";
+  static final String DATE_TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss";
 }
