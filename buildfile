@@ -3,7 +3,7 @@ require 'buildr/gpg'
 
 PROVIDED_DEPS = [:javaee_api, :javax_annotation]
 
-desc 'Some dimple jsonb data type serializers'
+desc 'Some simple jsonb data type support'
 define 'jsonb-datatypes' do
   project.group = 'org.realityforge.jsonb.datatypes'
   compile.options.source = '1.8'
