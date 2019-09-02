@@ -12,3 +12,6 @@ artifacts:
   mockito: org.mockito:mockito-all:jar:1.9.5
 
   guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.102
+
+  yasson: org.eclipse:yasson:jar:1.0.4
+  jakarta_json: org.glassfish:jakarta.json:jar:1.1.5

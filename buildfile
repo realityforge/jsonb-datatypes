@@ -1,7 +1,7 @@
 require 'buildr/git_auto_version'
 require 'buildr/gpg'
 
-PROVIDED_DEPS = [:javaee_api, :javax_annotation]
+PROVIDED_DEPS = [:javaee_api, :javax_annotation, :jakarta_json, :yasson]
 
 desc 'Some simple jsonb data type support'
 define 'jsonb-datatypes' do
