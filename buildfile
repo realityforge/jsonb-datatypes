@@ -19,6 +19,8 @@ define 'jsonb-datatypes' do
 
   compile.with PROVIDED_DEPS
 
+  test.options[:java_args] = %w(-ea)
+  test.options[:properties] = {'user.timezone' => 'Australia/Melbourne'}
   test.using :testng
   test.with :mockito, :guiceyloops
 
